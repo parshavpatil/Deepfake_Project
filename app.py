@@ -86,8 +86,8 @@ def extract_features(video_path, target_frames=40):
 
             if results.detections:
                 # Save the **original captured frame** (before crop)
-                frame_filename = os.path.join(save_folder, f"frame_{saved_frame_count:04d}.jpg")
-                cv2.imwrite(frame_filename, frame)
+                # frame_filename = os.path.join(save_folder, f"frame_{saved_frame_count:04d}.jpg")
+                # cv2.imwrite(frame_filename, frame)
                 saved_frame_count += 1
 
                 # Now crop the face and process it for feature extraction
