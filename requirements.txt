@@ -1,0 +1,8 @@
+Flask==2.3.3
+torch==2.2.1
+torchvision==0.17.1
+numpy==1.24.4
+opencv-python==4.9.0.80
+Pillow==10.2.0
+timm==0.9.12
+mediapipe==0.10.9
