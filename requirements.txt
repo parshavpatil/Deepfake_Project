@@ -14,7 +14,7 @@ fastapi
 uvicorn
 openai
 python-dotenv
-PyMuPD
+PyMuPDF
 pytesseract
 python-multipart
 pydantic
