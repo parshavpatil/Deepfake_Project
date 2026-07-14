@@ -5,7 +5,7 @@ torchvision
 timm
 
 numpy
-opencv-python
+opencv-python-headless
 mediapipe
 
 Pillow
