@@ -9,6 +9,10 @@ from timm import create_model
 from deepfake_model import DeepFakeModel
 import mediapipe as mp
 
+print(mp)
+print(mp.__file__)
+print(dir(mp))
+
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads'
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
